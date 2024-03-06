@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.webHeaderBackground {
+    background: rgb(42,63,83);
+    background: linear-gradient(0deg, rgba(42,63,83,1) 34%, rgba(33,48,62,1) 100%);
+    color: #F8F8F8;
+    width: 100%;
+    height: 10%;
+    z-index: 500;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.webHeaderBox {
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: row;
+    column-gap: 5px;
+    height: 100%;
+    display: flex;
+}
+
+.webHeaderButton{
+    color: #f8f8f8;
+    font-size: 22pt;
+    flex-grow: 1;
+    height: 100%;
+    text-decoration: none;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.webHeaderName {
+    height: 100%;
+    flex-grow: 1;
+    color: #f8f8f8;
+    font-size: 30pt;
+    font-weight: 500;
+    width: 30%;
+    flex-grow: 1;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.webHeaderHome {
+    flex-grow: 1;
+    border: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.webHeaderButton:hover{
+    background: linear-gradient(360deg, #507697, #2a3f53);
+    background-size: 120% 120%;
+
+    animation: HoverAnimation 3s ease-in-out infinite;
+}
+
+@keyframes HoverAnimation {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}

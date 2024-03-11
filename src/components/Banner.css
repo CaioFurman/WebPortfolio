@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.webBannerBackground {
+    background: rgb(42,63,83);
+    background: linear-gradient(0deg, rgba(42,63,83,1) 34%, rgb(32, 49, 66) 100%);
+    color: #F8F8F8;
+    width: 100%;
+    height: 1000px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.webBannerTitle{
+    height: 80%;
+    position: absolute;
+    font-size: 80pt;
+    font-weight: 400;
+    width: 100%;
+    flex-grow: 1;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.webBannerSubTitle{
+    height: 105%;
+    position: absolute;
+    color: #cfcfcf;
+    font-size: 35pt;
+    font-weight: 400;
+    width: 100%;
+    flex-grow: 1;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

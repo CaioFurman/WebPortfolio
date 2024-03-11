@@ -5,7 +5,7 @@
 
 .App-header {
   animation: crazyBackground infinite alternate 1s linear;
-  background-color: #282c34;
+  background-color: #f8f8f8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,5 +17,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+::-webkit-scrollbar
+{
+  display: none;
 }
 

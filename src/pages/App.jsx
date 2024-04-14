@@ -8,7 +8,9 @@ function App() {
       
       <CmpHeader />
       <CmpBanner />
-      
+      <div className="WIP">
+      WORK IN PROGRESS
+      </div>
     </div>
   );
 }
